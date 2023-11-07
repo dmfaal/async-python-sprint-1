@@ -2,6 +2,7 @@ import json
 import logging
 from http import HTTPStatus
 from urllib.request import urlopen
+from urllib.error import HTTPError
 
 ERR_MESSAGE_TEMPLATE = "Unexpected error: {error}"
 
@@ -27,6 +28,14 @@ class YandexWeatherAPI:
                     )
                 )
             return data
+        # Обработка ошибки 404
+        except HTTPError as http_err:
+            if http_err.code == 404:
+                logger.error("Страница не найдена: %s", url)
+        # Обработка неверного JSON
+        except json.JSONDecodeError as json_error:
+            if json_error == {}:
+                logger.error("пустые данные %s", url)
         except Exception as ex:
             logger.error(ex)
             raise Exception(ERR_MESSAGE_TEMPLATE.format(error=ex))

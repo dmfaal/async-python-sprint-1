@@ -1,5 +1,6 @@
 class DataFetchingTask:
-    pass
+    def fetching(self):
+        return
 
 
 class DataCalculationTask:
