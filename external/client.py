@@ -1,6 +1,7 @@
 import json
 import logging
 from http import HTTPStatus
+from typing import Any
 from urllib.request import urlopen
 from urllib.error import HTTPError
 
@@ -15,7 +16,7 @@ class YandexWeatherAPI:
     Base class for requests
     """
 
-    def __do_req(url: str) -> str:
+    def __do_req(url: str) -> Any:
         """Base request method"""
         try:
             with urlopen(url) as response:
@@ -32,10 +33,14 @@ class YandexWeatherAPI:
         except HTTPError as http_err:
             if http_err.code == 404:
                 logger.error("Страница не найдена: %s", url)
+                return None
         # Обработка неверного JSON
+            else:
+                logger.error("Произошла ошибка при выполнении запроса: %s", http_err)
+                raise Exception(ERR_MESSAGE_TEMPLATE.format(error=http_err))
         except json.JSONDecodeError as json_error:
-            if json_error == {}:
-                logger.error("пустые данные %s", url)
+            logger.error("Ошибка разбора JSON: %s", json_error)
+            return None
         except Exception as ex:
             logger.error(ex)
             raise Exception(ERR_MESSAGE_TEMPLATE.format(error=ex))
