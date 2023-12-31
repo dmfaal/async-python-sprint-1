@@ -8,6 +8,8 @@ import concurrent.futures
 from external.client import YandexWeatherAPI
 from utils import CITIES
 import os
+import pandas
+
 # from tasks import (
 #     DataFetchingTask,
 #     DataCalculationTask,
@@ -40,6 +42,8 @@ def analyze_outputs():
         command = f"python external/analyzer.py -i {input_file} -o {output_file}"
         print(command)
         os.system(command)
+#def round_up():
+    # Совмещение результатов работы скрипта в один файл
 
 
 if __name__ == "__main__":
