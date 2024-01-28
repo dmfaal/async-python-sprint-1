@@ -1,59 +1,60 @@
-2024-01-25 22:59:09,402 - INFO - Старт сбора данных
-2024-01-25 22:59:09,413 - INFO - Собираем погоду из города MOSCOW: https://code.s3.yandex.net/async-module/moscow-response.json
-2024-01-25 22:59:09,615 - INFO - Собираем погоду из города PARIS: https://code.s3.yandex.net/async-module/paris-response.json
-2024-01-25 22:59:09,705 - INFO - Собираем погоду из города LONDON: https://code.s3.yandex.net/async-module/london-response.json
-2024-01-25 22:59:09,815 - INFO - Собираем погоду из города BERLIN: https://code.s3.yandex.net/async-module/berlin-response.json
-2024-01-25 22:59:09,960 - INFO - Собираем погоду из города BEIJING: https://code.s3.yandex.net/async-module/beijing-response.json
-2024-01-25 22:59:10,064 - INFO - Собираем погоду из города KAZAN: https://code.s3.yandex.net/async-module/kazan-response.json
-2024-01-25 22:59:10,259 - INFO - Собираем погоду из города SPETERSBURG: https://code.s3.yandex.net/async-module/spetersburg-response.json
-2024-01-25 22:59:10,373 - INFO - Собираем погоду из города VOLGOGRAD: https://code.s3.yandex.net/async-module/volgograd-response.json
-2024-01-25 22:59:10,466 - INFO - Собираем погоду из города NOVOSIBIRSK: https://code.s3.yandex.net/async-module/novosibirsk-response.json
-2024-01-25 22:59:10,581 - INFO - Собираем погоду из города KALININGRAD: https://code.s3.yandex.net/async-module/kaliningrad-response.json
-2024-01-25 22:59:10,673 - INFO - Собираем погоду из города ABUDHABI: https://code.s3.yandex.net/async-module/abudhabi-response.json
-2024-01-25 22:59:10,829 - INFO - Собираем погоду из города WARSZAWA: https://code.s3.yandex.net/async-module/warszawa-response.json
-2024-01-25 22:59:10,962 - INFO - Собираем погоду из города BUCHAREST: https://code.s3.yandex.net/async-module/bucharest-response.json
-2024-01-25 22:59:11,094 - INFO - Собираем погоду из города ROMA: https://code.s3.yandex.net/async-module/roma-response.json
-2024-01-25 22:59:11,206 - INFO - Собираем погоду из города CAIRO: https://code.s3.yandex.net/async-module/cairo-response.json
-2024-01-25 22:59:11,328 - INFO - Собираем погоду из города GIZA: https://code.s3.yandex.net/async-module/giza-response.json
-2024-01-25 22:59:11,389 - ERROR - Страница не найдена: https://code.s3.yandex.net/async-module/giza-response.json
-2024-01-25 22:59:11,440 - INFO - Собираем погоду из города MADRID: https://code.s3.yandex.net/async-module/madrid-response.json
-2024-01-25 22:59:11,552 - INFO - Собираем погоду из города TORONTO: https://code.s3.yandex.net/async-module/toronto-response.json
-2024-01-25 22:59:11,685 - ERROR - Ошибка разбора JSON: Extra data: line 19 column 4 (char 328)
-2024-01-25 23:13:08,823 - INFO - Старт сбора данных
-2024-01-25 23:13:08,826 - INFO - Собираем погоду из города MOSCOW: https://code.s3.yandex.net/async-module/moscow-response.json
-2024-01-25 23:13:08,954 - INFO - Собираем погоду из города PARIS: https://code.s3.yandex.net/async-module/paris-response.json
-2024-01-25 23:13:09,061 - INFO - Собираем погоду из города LONDON: https://code.s3.yandex.net/async-module/london-response.json
-2024-01-25 23:13:09,126 - INFO - Собираем погоду из города BERLIN: https://code.s3.yandex.net/async-module/berlin-response.json
-2024-01-25 23:13:09,246 - INFO - Собираем погоду из города BEIJING: https://code.s3.yandex.net/async-module/beijing-response.json
-2024-01-25 23:13:09,355 - INFO - Собираем погоду из города KAZAN: https://code.s3.yandex.net/async-module/kazan-response.json
-2024-01-25 23:13:09,512 - INFO - Собираем погоду из города SPETERSBURG: https://code.s3.yandex.net/async-module/spetersburg-response.json
-2024-01-25 23:13:09,576 - INFO - Собираем погоду из города VOLGOGRAD: https://code.s3.yandex.net/async-module/volgograd-response.json
-2024-01-25 23:13:09,699 - INFO - Собираем погоду из города NOVOSIBIRSK: https://code.s3.yandex.net/async-module/novosibirsk-response.json
-2024-01-25 23:13:09,845 - INFO - Собираем погоду из города KALININGRAD: https://code.s3.yandex.net/async-module/kaliningrad-response.json
-2024-01-25 23:13:09,996 - INFO - Собираем погоду из города ABUDHABI: https://code.s3.yandex.net/async-module/abudhabi-response.json
-2024-01-25 23:13:10,164 - INFO - Собираем погоду из города WARSZAWA: https://code.s3.yandex.net/async-module/warszawa-response.json
-2024-01-25 23:13:10,386 - INFO - Собираем погоду из города BUCHAREST: https://code.s3.yandex.net/async-module/bucharest-response.json
-2024-01-25 23:13:10,483 - INFO - Собираем погоду из города ROMA: https://code.s3.yandex.net/async-module/roma-response.json
-2024-01-25 23:13:10,590 - INFO - Собираем погоду из города CAIRO: https://code.s3.yandex.net/async-module/cairo-response.json
-2024-01-25 23:13:10,736 - INFO - Собираем погоду из города GIZA: https://code.s3.yandex.net/async-module/giza-response.json
-2024-01-25 23:13:10,789 - ERROR - Страница не найдена: https://code.s3.yandex.net/async-module/giza-response.json
-2024-01-25 23:13:10,830 - INFO - Собираем погоду из города MADRID: https://code.s3.yandex.net/async-module/madrid-response.json
-2024-01-25 23:13:10,948 - INFO - Собираем погоду из города TORONTO: https://code.s3.yandex.net/async-module/toronto-response.json
-2024-01-25 23:13:11,083 - ERROR - Ошибка разбора JSON: Extra data: line 19 column 4 (char 328)
-2024-01-26 00:38:04,128 - INFO - Старт сбора данных
-2024-01-26 00:38:04,133 - INFO - Собираем погоду из города MOSCOW: https://code.s3.yandex.net/async-module/moscow-response.json
-2024-01-26 00:38:04,253 - INFO - Собираем погоду из города PARIS: https://code.s3.yandex.net/async-module/paris-response.json
-2024-01-26 00:38:04,447 - INFO - Собираем погоду из города LONDON: https://code.s3.yandex.net/async-module/london-response.json
-2024-01-26 00:38:04,557 - INFO - Собираем погоду из города BERLIN: https://code.s3.yandex.net/async-module/berlin-response.json
-2024-01-26 00:38:04,663 - INFO - Собираем погоду из города BEIJING: https://code.s3.yandex.net/async-module/beijing-response.json
-2024-01-26 00:38:04,752 - INFO - Собираем погоду из города KAZAN: https://code.s3.yandex.net/async-module/kazan-response.json
-2024-01-26 00:38:04,850 - INFO - Собираем погоду из города SPETERSBURG: https://code.s3.yandex.net/async-module/spetersburg-response.json
-2024-01-26 00:38:04,938 - INFO - Собираем погоду из города VOLGOGRAD: https://code.s3.yandex.net/async-module/volgograd-response.json
-2024-01-26 00:38:05,122 - INFO - Собираем погоду из города NOVOSIBIRSK: https://code.s3.yandex.net/async-module/novosibirsk-response.json
-2024-01-26 00:38:05,223 - INFO - Собираем погоду из города KALININGRAD: https://code.s3.yandex.net/async-module/kaliningrad-response.json
-2024-01-26 00:38:05,334 - INFO - Собираем погоду из города ABUDHABI: https://code.s3.yandex.net/async-module/abudhabi-response.json
-2024-01-26 00:38:05,467 - INFO - Собираем погоду из города WARSZAWA: https://code.s3.yandex.net/async-module/warszawa-response.json
-2024-01-26 00:38:05,605 - INFO - Собираем погоду из города BUCHAREST: https://code.s3.yandex.net/async-module/bucharest-response.json
-2024-01-26 00:38:05,704 - INFO - Собираем погоду из города ROMA: https://code.s3.yandex.net/async-module/roma-response.json
-2024-01-26 00:38:06,187 - INFO - Собираем погоду из города CAIRO: https://code.s3.yandex.net/async-module/cairo-response.json
-2024-01-26 00:38:06,313 - INFO - Собираем погоду из города MADRID: https://code.s3.yandex.net/async-module/madrid-response.json
+2024-01-28 22:27:58,126 - INFO - Старт сбора данных
+2024-01-28 22:27:58,128 - INFO - Собираем погоду из города MOSCOW: https://code.s3.yandex.net/async-module/moscow-response.json
+2024-01-28 22:27:58,128 - INFO - Собираем погоду из города PARIS: https://code.s3.yandex.net/async-module/paris-response.json
+2024-01-28 22:27:58,128 - INFO - Собираем погоду из города LONDON: https://code.s3.yandex.net/async-module/london-response.json
+2024-01-28 22:27:58,129 - INFO - Собираем погоду из города BERLIN: https://code.s3.yandex.net/async-module/berlin-response.json
+2024-01-28 22:27:58,167 - INFO - Собираем погоду из города BEIJING: https://code.s3.yandex.net/async-module/beijing-response.json
+2024-01-28 22:27:58,176 - INFO - Собираем погоду из города KAZAN: https://code.s3.yandex.net/async-module/kazan-response.json
+2024-01-28 22:27:58,185 - INFO - Собираем погоду из города SPETERSBURG: https://code.s3.yandex.net/async-module/spetersburg-response.json
+2024-01-28 22:27:58,194 - INFO - Собираем погоду из города VOLGOGRAD: https://code.s3.yandex.net/async-module/volgograd-response.json
+2024-01-28 22:27:58,203 - INFO - Собираем погоду из города NOVOSIBIRSK: https://code.s3.yandex.net/async-module/novosibirsk-response.json
+2024-01-28 22:27:58,220 - INFO - Собираем погоду из города KALININGRAD: https://code.s3.yandex.net/async-module/kaliningrad-response.json
+2024-01-28 22:27:58,220 - INFO - Собираем погоду из города ABUDHABI: https://code.s3.yandex.net/async-module/abudhabi-response.json
+2024-01-28 22:27:58,229 - INFO - Собираем погоду из города WARSZAWA: https://code.s3.yandex.net/async-module/warszawa-response.json
+2024-01-28 22:27:58,229 - INFO - Собираем погоду из города BUCHAREST: https://code.s3.yandex.net/async-module/bucharest-response.json
+2024-01-28 22:27:58,229 - INFO - Собираем погоду из города ROMA: https://code.s3.yandex.net/async-module/roma-response.json
+2024-01-28 22:27:58,229 - INFO - Собираем погоду из города CAIRO: https://code.s3.yandex.net/async-module/cairo-response.json
+2024-01-28 22:27:58,229 - INFO - Собираем погоду из города GIZA: https://code.s3.yandex.net/async-module/giza-response.json
+2024-01-28 22:27:58,230 - INFO - Собираем погоду из города MADRID: https://code.s3.yandex.net/async-module/madrid-response.json
+2024-01-28 22:27:58,230 - INFO - Собираем погоду из города TORONTO: https://code.s3.yandex.net/async-module/toronto-response.json
+2024-01-28 22:27:58,431 - ERROR - Страница не найдена: https://code.s3.yandex.net/async-module/giza-response.json
+2024-01-28 22:27:58,473 - ERROR - Ошибка разбора JSON: Extra data: line 19 column 4 (char 328)
+2024-01-28 22:27:58,473 - ERROR - URL ошибки выше: https://code.s3.yandex.net/async-module/toronto-response.json
+2024-01-28 22:27:58,481 - ERROR - Пустой JSON-ответ: https://code.s3.yandex.net/async-module/madrid-response.json
+2024-01-28 22:27:58,578 - INFO - Загружаем погоду из MOSCOW
+2024-01-28 22:27:58,578 - INFO - Выполнение скрипта для MOSCOW
+2024-01-28 22:27:58,865 - INFO - Загружаем погоду из PARIS
+2024-01-28 22:27:58,865 - INFO - Выполнение скрипта для PARIS
+2024-01-28 22:27:59,119 - INFO - Загружаем погоду из LONDON
+2024-01-28 22:27:59,119 - INFO - Выполнение скрипта для LONDON
+2024-01-28 22:27:59,402 - INFO - Загружаем погоду из BERLIN
+2024-01-28 22:27:59,402 - INFO - Выполнение скрипта для BERLIN
+2024-01-28 22:27:59,648 - INFO - Загружаем погоду из BEIJING
+2024-01-28 22:27:59,648 - INFO - Выполнение скрипта для BEIJING
+2024-01-28 22:27:59,872 - INFO - Загружаем погоду из KAZAN
+2024-01-28 22:27:59,872 - INFO - Выполнение скрипта для KAZAN
+2024-01-28 22:28:00,116 - INFO - Загружаем погоду из SPETERSBURG
+2024-01-28 22:28:00,116 - INFO - Выполнение скрипта для SPETERSBURG
+2024-01-28 22:28:00,380 - INFO - Загружаем погоду из VOLGOGRAD
+2024-01-28 22:28:00,380 - INFO - Выполнение скрипта для VOLGOGRAD
+2024-01-28 22:28:00,632 - INFO - Загружаем погоду из NOVOSIBIRSK
+2024-01-28 22:28:00,632 - INFO - Выполнение скрипта для NOVOSIBIRSK
+2024-01-28 22:28:00,900 - INFO - Загружаем погоду из KALININGRAD
+2024-01-28 22:28:00,900 - INFO - Выполнение скрипта для KALININGRAD
+2024-01-28 22:28:01,135 - INFO - Загружаем погоду из ABUDHABI
+2024-01-28 22:28:01,135 - INFO - Выполнение скрипта для ABUDHABI
+2024-01-28 22:28:01,357 - INFO - Загружаем погоду из WARSZAWA
+2024-01-28 22:28:01,357 - INFO - Выполнение скрипта для WARSZAWA
+2024-01-28 22:28:01,572 - INFO - Загружаем погоду из BUCHAREST
+2024-01-28 22:28:01,572 - INFO - Выполнение скрипта для BUCHAREST
+2024-01-28 22:28:01,801 - INFO - Загружаем погоду из ROMA
+2024-01-28 22:28:01,801 - INFO - Выполнение скрипта для ROMA
+2024-01-28 22:28:02,041 - INFO - Загружаем погоду из CAIRO
+2024-01-28 22:28:02,041 - INFO - Выполнение скрипта для CAIRO
+2024-01-28 22:28:02,302 - INFO - Загружаем погоду из GIZA
+2024-01-28 22:28:02,302 - INFO - Выполнение скрипта для GIZA
+2024-01-28 22:28:02,548 - INFO - Загружаем погоду из MADRID
+2024-01-28 22:28:02,548 - INFO - Выполнение скрипта для MADRID
+2024-01-28 22:28:02,770 - INFO - Загружаем погоду из TORONTO
+2024-01-28 22:28:02,770 - INFO - Выполнение скрипта для TORONTO
+2024-01-28 22:28:02,993 - INFO - Анализ и свод ключевых данных

@@ -16,6 +16,9 @@ class YandexWeatherAPI:
     Base class for requests
     """
 
+    logged_urls = []
+
+    @staticmethod
     def __do_req(url: str) -> Any:
         """Base request method"""
         try:
@@ -28,11 +31,15 @@ class YandexWeatherAPI:
                         resp_body.status, resp_body.reason
                     )
                 )
+            if not data:  # Проверка на пустой JSON
+                logger.error("Пустой JSON-ответ: %s", url)
+                return None
             return data
         # Обработка ошибки 404
         except HTTPError as http_err:
             if http_err.code == 404:
                 logger.error("Страница не найдена: %s", url)
+                YandexWeatherAPI.logged_urls.append(url)
                 return None
         # Обработка неверного JSON
             else:
@@ -40,10 +47,14 @@ class YandexWeatherAPI:
                 raise Exception(ERR_MESSAGE_TEMPLATE.format(error=http_err))
         except json.JSONDecodeError as json_error:
             logger.error("Ошибка разбора JSON: %s", json_error)
+            logger.error("URL ошибки выше: %s", url)
+            YandexWeatherAPI.logged_urls.append(url)
             return None
         except Exception as ex:
             logger.error(ex)
+            YandexWeatherAPI.logged_urls.append(url)
             raise Exception(ERR_MESSAGE_TEMPLATE.format(error=ex))
+
 
     @staticmethod
     def get_forecasting(url: str):
