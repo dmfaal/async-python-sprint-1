@@ -2,23 +2,25 @@ import asyncio
 import concurrent.futures
 import csv
 import json
-import logging
 import os
+import logging
 
 from external.client import YandexWeatherAPI
 from utils import CITIES
+from logs import my_logs
 
-
-def __init__(self):
-    self.logger = logging.getLogger(__name__)
+logger = my_logs()
 
 
 class DataFetchingTask:
+    def __init__(self, CITIES):
+        self.CITIES = CITIES
+
     async def forecast_weather(self):
         logging.info("Старт сбора данных")
         with concurrent.futures.ThreadPoolExecutor() as pool:
             all_forecasts = []
-            for key, value in CITIES.items():
+            for key, value in self.CITIES.items():
                 forecast = pool.submit(YandexWeatherAPI.get_forecasting, value)
                 all_forecasts.append(forecast)
                 logging.info(f"Собираем погоду из города {key}: {value}")
@@ -42,7 +44,7 @@ class DataCalculationTask:
 
 
 class DataAggregationTask:
-    async def roundup(self, input_folder, output_csv):
+    def roundup(self, input_folder, output_csv):
         logging.info("Анализ и свод ключевых данных")
         with open(output_csv, 'w', newline='') as csvfile:
             fieldnames = ['file_name', 'temp_avg', 'relevant_cond_hours_avg']
@@ -50,7 +52,7 @@ class DataAggregationTask:
             writer.writeheader()
             files = [file_name for file_name in os.listdir(input_folder) if file_name.endswith(".json")]
 
-            async def process_file(file_name):
+            def process_file(file_name):
                 input_file = os.path.join(input_folder, file_name)
                 with open(input_file, 'r') as file:
                     try:
@@ -72,7 +74,8 @@ class DataAggregationTask:
                         pass
 
             tasks = [process_file(file_name) for file_name in files]
-            await asyncio.gather(*tasks)
+            for task in tasks:
+                task
 
 
 class DataAnalyzingTask:
@@ -94,12 +97,8 @@ class DataAnalyzingTask:
 
 
 if __name__ == "__main__":
-    logging.basicConfig(filename='weather_logs.txt', level=logging.INFO,
-                        format='%(asctime)s - %(levelname)s - %(message)s')
-
-
     async def main():
-        forecast = DataFetchingTask()
+        forecast = DataFetchingTask(CITIES)
         await forecast.forecast_weather()
 
         calculation = DataCalculationTask()
@@ -107,7 +106,7 @@ if __name__ == "__main__":
             await calculation.analyze_outputs(key)
 
         aggregation = DataAggregationTask()
-        await aggregation.roundup("data", "output_avg.csv")
+        aggregation.roundup("data", "output_avg.csv")
 
         analyzer = DataAnalyzingTask()
         await analyzer.best_city('output_avg.csv')
