@@ -112,5 +112,5 @@ resp = YandexWeatherAPI.get_forecasting(data_url)
 ```
 
 ## Запуск проекта:
-Выполнить файл "tasks.py"
+Выполнить if __name__ == "__main__": в forecasting.py
 
