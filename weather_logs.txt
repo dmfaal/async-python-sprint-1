@@ -1,0 +1,152 @@
+2024-03-02 01:04:03,939 - INFO - Старт сбора данных
+2024-03-02 01:04:03,940 - INFO - Собираем погоду из города MOSCOW: https://code.s3.yandex.net/async-module/moscow-response.json
+2024-03-02 01:04:04,052 - INFO - Собираем погоду из города PARIS: https://code.s3.yandex.net/async-module/paris-response.json
+2024-03-02 01:04:04,176 - INFO - Собираем погоду из города LONDON: https://code.s3.yandex.net/async-module/london-response.json
+2024-03-02 01:04:04,298 - INFO - Собираем погоду из города BERLIN: https://code.s3.yandex.net/async-module/berlin-response.json
+2024-03-02 01:04:04,406 - INFO - Собираем погоду из города BEIJING: https://code.s3.yandex.net/async-module/beijing-response.json
+2024-03-02 01:04:04,515 - INFO - Собираем погоду из города KAZAN: https://code.s3.yandex.net/async-module/kazan-response.json
+2024-03-02 01:04:04,623 - INFO - Собираем погоду из города SPETERSBURG: https://code.s3.yandex.net/async-module/spetersburg-response.json
+2024-03-02 01:04:04,730 - INFO - Собираем погоду из города VOLGOGRAD: https://code.s3.yandex.net/async-module/volgograd-response.json
+2024-03-02 01:04:04,840 - INFO - Собираем погоду из города NOVOSIBIRSK: https://code.s3.yandex.net/async-module/novosibirsk-response.json
+2024-03-02 01:04:04,948 - INFO - Собираем погоду из города KALININGRAD: https://code.s3.yandex.net/async-module/kaliningrad-response.json
+2024-03-02 01:04:05,057 - INFO - Собираем погоду из города ABUDHABI: https://code.s3.yandex.net/async-module/abudhabi-response.json
+2024-03-02 01:04:05,166 - INFO - Собираем погоду из города WARSZAWA: https://code.s3.yandex.net/async-module/warszawa-response.json
+2024-03-02 01:04:05,276 - INFO - Собираем погоду из города BUCHAREST: https://code.s3.yandex.net/async-module/bucharest-response.json
+2024-03-02 01:04:05,383 - INFO - Собираем погоду из города ROMA: https://code.s3.yandex.net/async-module/roma-response.json
+2024-03-02 01:04:05,492 - INFO - Собираем погоду из города CAIRO: https://code.s3.yandex.net/async-module/cairo-response.json
+2024-03-02 01:04:05,600 - INFO - Собираем погоду из города GIZA: https://code.s3.yandex.net/async-module/giza-response.json
+2024-03-02 01:04:05,669 - ERROR - Страница не найдена: https://code.s3.yandex.net/async-module/giza-response.json
+2024-03-02 01:04:05,711 - INFO - Собираем погоду из города MADRID: https://code.s3.yandex.net/async-module/madrid-response.json
+2024-03-02 01:04:05,819 - INFO - Собираем погоду из города TORONTO: https://code.s3.yandex.net/async-module/toronto-response.json
+2024-03-02 01:04:05,835 - ERROR - Пустой JSON-ответ: https://code.s3.yandex.net/async-module/madrid-response.json
+2024-03-02 01:04:05,909 - ERROR - Ошибка разбора JSON: Extra data: line 19 column 4 (char 328)
+2024-03-02 01:04:05,909 - ERROR - URL ошибки выше: https://code.s3.yandex.net/async-module/toronto-response.json
+2024-03-02 01:04:05,979 - INFO - Загружаем погоду из MOSCOW
+2024-03-02 01:04:05,979 - INFO - Выполнение скрипта для MOSCOW
+2024-03-02 01:04:06,241 - INFO - Загружаем погоду из PARIS
+2024-03-02 01:04:06,241 - INFO - Выполнение скрипта для PARIS
+2024-03-02 01:04:06,491 - INFO - Загружаем погоду из LONDON
+2024-03-02 01:04:06,491 - INFO - Выполнение скрипта для LONDON
+2024-03-02 01:04:06,741 - INFO - Загружаем погоду из BERLIN
+2024-03-02 01:04:06,741 - INFO - Выполнение скрипта для BERLIN
+2024-03-02 01:04:07,008 - INFO - Загружаем погоду из BEIJING
+2024-03-02 01:04:07,008 - INFO - Выполнение скрипта для BEIJING
+2024-03-02 01:04:07,253 - INFO - Загружаем погоду из KAZAN
+2024-03-02 01:04:07,253 - INFO - Выполнение скрипта для KAZAN
+2024-03-02 01:04:07,520 - INFO - Загружаем погоду из SPETERSBURG
+2024-03-02 01:04:07,520 - INFO - Выполнение скрипта для SPETERSBURG
+2024-03-02 01:04:07,770 - INFO - Загружаем погоду из VOLGOGRAD
+2024-03-02 01:04:07,770 - INFO - Выполнение скрипта для VOLGOGRAD
+2024-03-02 01:04:08,035 - INFO - Загружаем погоду из NOVOSIBIRSK
+2024-03-02 01:04:08,035 - INFO - Выполнение скрипта для NOVOSIBIRSK
+2024-03-02 01:04:08,285 - INFO - Загружаем погоду из KALININGRAD
+2024-03-02 01:04:08,285 - INFO - Выполнение скрипта для KALININGRAD
+2024-03-02 01:04:08,535 - INFO - Загружаем погоду из ABUDHABI
+2024-03-02 01:04:08,535 - INFO - Выполнение скрипта для ABUDHABI
+2024-03-02 01:04:08,784 - INFO - Загружаем погоду из WARSZAWA
+2024-03-02 01:04:08,784 - INFO - Выполнение скрипта для WARSZAWA
+2024-03-02 01:04:09,035 - INFO - Загружаем погоду из BUCHAREST
+2024-03-02 01:04:09,035 - INFO - Выполнение скрипта для BUCHAREST
+2024-03-02 01:04:09,282 - INFO - Загружаем погоду из ROMA
+2024-03-02 01:04:09,282 - INFO - Выполнение скрипта для ROMA
+2024-03-02 01:04:09,516 - INFO - Загружаем погоду из CAIRO
+2024-03-02 01:04:09,516 - INFO - Выполнение скрипта для CAIRO
+2024-03-02 01:04:09,751 - INFO - Загружаем погоду из GIZA
+2024-03-02 01:04:09,751 - INFO - Выполнение скрипта для GIZA
+2024-03-02 01:04:09,987 - INFO - Загружаем погоду из MADRID
+2024-03-02 01:04:09,987 - INFO - Выполнение скрипта для MADRID
+2024-03-02 01:04:10,235 - INFO - Загружаем погоду из TORONTO
+2024-03-02 01:04:10,235 - INFO - Выполнение скрипта для TORONTO
+2024-03-02 01:04:10,518 - INFO - Анализ и свод ключевых данных
+2024-03-02 01:04:10,519 - INFO - Температура ABUDHABI_output.json: 11
+2024-03-02 01:04:10,519 - INFO - Температура ABUDHABI_output.json: 22
+2024-03-02 01:04:10,519 - INFO - Температура ABUDHABI_output.json: 33
+2024-03-02 01:04:10,519 - INFO - Температура ABUDHABI_output.json: 35
+2024-03-02 01:04:10,519 - INFO - Температура ABUDHABI_output.json: 35
+2024-03-02 01:04:10,521 - INFO - Температура BEIJING_output.json: 11
+2024-03-02 01:04:10,521 - INFO - Температура BEIJING_output.json: 22
+2024-03-02 01:04:10,521 - INFO - Температура BEIJING_output.json: 33
+2024-03-02 01:04:10,521 - INFO - Температура BEIJING_output.json: 39
+2024-03-02 01:04:10,521 - INFO - Температура BEIJING_output.json: 39
+2024-03-02 01:04:10,523 - INFO - Температура BERLIN_output.json: 11
+2024-03-02 01:04:10,523 - INFO - Температура BERLIN_output.json: 22
+2024-03-02 01:04:10,523 - INFO - Температура BERLIN_output.json: 33
+2024-03-02 01:04:10,523 - INFO - Температура BERLIN_output.json: 33
+2024-03-02 01:04:10,523 - INFO - Температура BERLIN_output.json: 33
+2024-03-02 01:04:10,523 - INFO - Температура BUCHAREST_output.json: 11
+2024-03-02 01:04:10,523 - INFO - Температура BUCHAREST_output.json: 22
+2024-03-02 01:04:10,523 - INFO - Температура BUCHAREST_output.json: 33
+2024-03-02 01:04:10,523 - INFO - Температура BUCHAREST_output.json: 34
+2024-03-02 01:04:10,523 - INFO - Температура BUCHAREST_output.json: 34
+2024-03-02 01:04:10,525 - INFO - Температура CAIRO_output.json: 11
+2024-03-02 01:04:10,525 - INFO - Температура CAIRO_output.json: 22
+2024-03-02 01:04:10,525 - INFO - Температура CAIRO_output.json: 33
+2024-03-02 01:04:10,526 - INFO - Температура CAIRO_output.json: 33
+2024-03-02 01:04:10,526 - INFO - Температура CAIRO_output.json: 33
+2024-03-02 01:04:10,528 - INFO - Температура KALININGRAD_output.json: 11
+2024-03-02 01:04:10,529 - INFO - Температура KAZAN_output.json: 11
+2024-03-02 01:04:10,529 - INFO - Температура KAZAN_output.json: 22
+2024-03-02 01:04:10,529 - INFO - Температура KALININGRAD_output.json: 22
+2024-03-02 01:04:10,529 - INFO - Температура KAZAN_output.json: 33
+2024-03-02 01:04:10,529 - INFO - Температура KALININGRAD_output.json: 33
+2024-03-02 01:04:10,529 - INFO - Температура KAZAN_output.json: 34
+2024-03-02 01:04:10,529 - INFO - Температура KALININGRAD_output.json: 33
+2024-03-02 01:04:10,529 - INFO - Температура KAZAN_output.json: 34
+2024-03-02 01:04:10,529 - INFO - Температура KALININGRAD_output.json: 33
+2024-03-02 01:04:10,529 - INFO - Температура LONDON_output.json: 11
+2024-03-02 01:04:10,530 - INFO - Температура LONDON_output.json: 22
+2024-03-02 01:04:10,530 - INFO - Температура LONDON_output.json: 33
+2024-03-02 01:04:10,530 - INFO - Температура LONDON_output.json: 33
+2024-03-02 01:04:10,530 - INFO - Температура LONDON_output.json: 33
+2024-03-02 01:04:10,627 - INFO - Температура MOSCOW_output.json: 11
+2024-03-02 01:04:10,627 - INFO - Температура MOSCOW_output.json: 22
+2024-03-02 01:04:10,628 - INFO - Температура MOSCOW_output.json: 33
+2024-03-02 01:04:10,628 - INFO - Температура MOSCOW_output.json: 34
+2024-03-02 01:04:10,628 - INFO - Температура MOSCOW_output.json: 34
+2024-03-02 01:04:10,629 - INFO - Температура NOVOSIBIRSK_output.json: 11
+2024-03-02 01:04:10,629 - INFO - Температура NOVOSIBIRSK_output.json: 22
+2024-03-02 01:04:10,629 - INFO - Температура NOVOSIBIRSK_output.json: 33
+2024-03-02 01:04:10,629 - INFO - Температура NOVOSIBIRSK_output.json: 38
+2024-03-02 01:04:10,629 - INFO - Температура NOVOSIBIRSK_output.json: 38
+2024-03-02 01:04:10,631 - INFO - Температура PARIS_output.json: 11
+2024-03-02 01:04:10,631 - INFO - Температура PARIS_output.json: 22
+2024-03-02 01:04:10,631 - INFO - Температура PARIS_output.json: 33
+2024-03-02 01:04:10,631 - INFO - Температура PARIS_output.json: 33
+2024-03-02 01:04:10,631 - INFO - Температура PARIS_output.json: 33
+2024-03-02 01:04:10,631 - INFO - Температура ROMA_output.json: 11
+2024-03-02 01:04:10,631 - INFO - Температура ROMA_output.json: 22
+2024-03-02 01:04:10,631 - INFO - Температура ROMA_output.json: 33
+2024-03-02 01:04:10,631 - INFO - Температура ROMA_output.json: 33
+2024-03-02 01:04:10,631 - INFO - Температура ROMA_output.json: 33
+2024-03-02 01:04:10,644 - INFO - Температура VOLGOGRAD_output.json: 11
+2024-03-02 01:04:10,644 - INFO - Температура VOLGOGRAD_output.json: 22
+2024-03-02 01:04:10,645 - INFO - Температура VOLGOGRAD_output.json: 33
+2024-03-02 01:04:10,645 - INFO - Температура SPETERSBURG_output.json: 11
+2024-03-02 01:04:10,646 - INFO - Температура VOLGOGRAD_output.json: 34
+2024-03-02 01:04:10,647 - INFO - Температура WARSZAWA_output.json: 11
+2024-03-02 01:04:10,647 - INFO - Температура SPETERSBURG_output.json: 22
+2024-03-02 01:04:10,647 - INFO - Температура VOLGOGRAD_output.json: 34
+2024-03-02 01:04:10,647 - INFO - Температура WARSZAWA_output.json: 22
+2024-03-02 01:04:10,647 - INFO - Температура SPETERSBURG_output.json: 33
+2024-03-02 01:04:10,647 - INFO - Температура WARSZAWA_output.json: 33
+2024-03-02 01:04:10,647 - INFO - Температура SPETERSBURG_output.json: 34
+2024-03-02 01:04:10,647 - INFO - Температура WARSZAWA_output.json: 33
+2024-03-02 01:04:10,647 - INFO - Температура SPETERSBURG_output.json: 34
+2024-03-02 01:04:10,647 - INFO - Температура WARSZAWA_output.json: 33
+2024-03-02 01:04:14,460 - INFO - Старт сбора данных из файла output_avg.csv
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}]
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}]
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}]
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\BUCHAREST_output.json', 'temp_avg': '19.8728', 'relevant_cond_hours_avg': '6.8'}]
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\BUCHAREST_output.json', 'temp_avg': '19.8728', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\CAIRO_output.json', 'temp_avg': '20.0364', 'relevant_cond_hours_avg': '6.6'}]
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\BUCHAREST_output.json', 'temp_avg': '19.8728', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\CAIRO_output.json', 'temp_avg': '20.0364', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KALININGRAD_output.json', 'temp_avg': '7.9636', 'relevant_cond_hours_avg': '6.6'}]
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\BUCHAREST_output.json', 'temp_avg': '19.8728', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\CAIRO_output.json', 'temp_avg': '20.0364', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KALININGRAD_output.json', 'temp_avg': '7.9636', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KAZAN_output.json', 'temp_avg': '10.999799999999999', 'relevant_cond_hours_avg': '6.8'}]
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\BUCHAREST_output.json', 'temp_avg': '19.8728', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\CAIRO_output.json', 'temp_avg': '20.0364', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KALININGRAD_output.json', 'temp_avg': '7.9636', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KAZAN_output.json', 'temp_avg': '10.999799999999999', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\LONDON_output.json', 'temp_avg': '9.654599999999999', 'relevant_cond_hours_avg': '6.6'}]
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\BUCHAREST_output.json', 'temp_avg': '19.8728', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\CAIRO_output.json', 'temp_avg': '20.0364', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KALININGRAD_output.json', 'temp_avg': '7.9636', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KAZAN_output.json', 'temp_avg': '10.999799999999999', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\LONDON_output.json', 'temp_avg': '9.654599999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\MOSCOW_output.json', 'temp_avg': '11.0', 'relevant_cond_hours_avg': '6.8'}]
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\BUCHAREST_output.json', 'temp_avg': '19.8728', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\CAIRO_output.json', 'temp_avg': '20.0364', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KALININGRAD_output.json', 'temp_avg': '7.9636', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KAZAN_output.json', 'temp_avg': '10.999799999999999', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\LONDON_output.json', 'temp_avg': '9.654599999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\MOSCOW_output.json', 'temp_avg': '11.0', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\NOVOSIBIRSK_output.json', 'temp_avg': '18.5674', 'relevant_cond_hours_avg': '7.6'}]
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\BUCHAREST_output.json', 'temp_avg': '19.8728', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\CAIRO_output.json', 'temp_avg': '20.0364', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KALININGRAD_output.json', 'temp_avg': '7.9636', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KAZAN_output.json', 'temp_avg': '10.999799999999999', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\LONDON_output.json', 'temp_avg': '9.654599999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\MOSCOW_output.json', 'temp_avg': '11.0', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\NOVOSIBIRSK_output.json', 'temp_avg': '18.5674', 'relevant_cond_hours_avg': '7.6'}, {'file_name': 'data\\PARIS_output.json', 'temp_avg': '10.4', 'relevant_cond_hours_avg': '6.6'}]
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\BUCHAREST_output.json', 'temp_avg': '19.8728', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\CAIRO_output.json', 'temp_avg': '20.0364', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KALININGRAD_output.json', 'temp_avg': '7.9636', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KAZAN_output.json', 'temp_avg': '10.999799999999999', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\LONDON_output.json', 'temp_avg': '9.654599999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\MOSCOW_output.json', 'temp_avg': '11.0', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\NOVOSIBIRSK_output.json', 'temp_avg': '18.5674', 'relevant_cond_hours_avg': '7.6'}, {'file_name': 'data\\PARIS_output.json', 'temp_avg': '10.4', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\ROMA_output.json', 'temp_avg': '16.7636', 'relevant_cond_hours_avg': '6.6'}]
+2024-03-02 01:04:14,461 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\BUCHAREST_output.json', 'temp_avg': '19.8728', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\CAIRO_output.json', 'temp_avg': '20.0364', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KALININGRAD_output.json', 'temp_avg': '7.9636', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KAZAN_output.json', 'temp_avg': '10.999799999999999', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\LONDON_output.json', 'temp_avg': '9.654599999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\MOSCOW_output.json', 'temp_avg': '11.0', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\NOVOSIBIRSK_output.json', 'temp_avg': '18.5674', 'relevant_cond_hours_avg': '7.6'}, {'file_name': 'data\\PARIS_output.json', 'temp_avg': '10.4', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\ROMA_output.json', 'temp_avg': '16.7636', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\SPETERSBURG_output.json', 'temp_avg': '9.527199999999999', 'relevant_cond_hours_avg': '6.8'}]
+2024-03-02 01:04:14,462 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\BUCHAREST_output.json', 'temp_avg': '19.8728', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\CAIRO_output.json', 'temp_avg': '20.0364', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KALININGRAD_output.json', 'temp_avg': '7.9636', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KAZAN_output.json', 'temp_avg': '10.999799999999999', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\LONDON_output.json', 'temp_avg': '9.654599999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\MOSCOW_output.json', 'temp_avg': '11.0', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\NOVOSIBIRSK_output.json', 'temp_avg': '18.5674', 'relevant_cond_hours_avg': '7.6'}, {'file_name': 'data\\PARIS_output.json', 'temp_avg': '10.4', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\ROMA_output.json', 'temp_avg': '16.7636', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\SPETERSBURG_output.json', 'temp_avg': '9.527199999999999', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\VOLGOGRAD_output.json', 'temp_avg': '18.9272', 'relevant_cond_hours_avg': '6.8'}]
+2024-03-02 01:04:14,462 - INFO - Перебираем: [{'file_name': 'data\\ABUDHABI_output.json', 'temp_avg': '27.418200000000002', 'relevant_cond_hours_avg': '7.0'}, {'file_name': 'data\\BEIJING_output.json', 'temp_avg': '25.306', 'relevant_cond_hours_avg': '7.8'}, {'file_name': 'data\\BERLIN_output.json', 'temp_avg': '9.781799999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\BUCHAREST_output.json', 'temp_avg': '19.8728', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\CAIRO_output.json', 'temp_avg': '20.0364', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KALININGRAD_output.json', 'temp_avg': '7.9636', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\KAZAN_output.json', 'temp_avg': '10.999799999999999', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\LONDON_output.json', 'temp_avg': '9.654599999999999', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\MOSCOW_output.json', 'temp_avg': '11.0', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\NOVOSIBIRSK_output.json', 'temp_avg': '18.5674', 'relevant_cond_hours_avg': '7.6'}, {'file_name': 'data\\PARIS_output.json', 'temp_avg': '10.4', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\ROMA_output.json', 'temp_avg': '16.7636', 'relevant_cond_hours_avg': '6.6'}, {'file_name': 'data\\SPETERSBURG_output.json', 'temp_avg': '9.527199999999999', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\VOLGOGRAD_output.json', 'temp_avg': '18.9272', 'relevant_cond_hours_avg': '6.8'}, {'file_name': 'data\\WARSZAWA_output.json', 'temp_avg': '9.290799999999999', 'relevant_cond_hours_avg': '6.6'}]
+2024-03-02 01:04:14,462 - INFO - Наилучшие условия: ['data\\ABUDHABI_output.json', 'data\\BEIJING_output.json']

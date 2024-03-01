@@ -1,11 +1,8 @@
-from utils import CITIES
 from queue import Queue
-from tasks import (
-    DataFetchingTask,
-    DataCalculationTask,
-    DataAggregationTask,
-    DataAnalyzingTask,
-)
+
+from tasks import (DataAggregationTask, DataAnalyzingTask, DataCalculationTask,
+                   DataFetchingTask)
+from utils import CITIES
 
 
 def main():
@@ -22,7 +19,7 @@ def main():
     aggregation.roundup("data", "output_avg.csv")
 
     analyzer = DataAnalyzingTask()
-    analyzer.best_city('output_avg.csv')
+    analyzer.run_analysis('output_avg.csv')
 
 
 if __name__ == "__main__":
